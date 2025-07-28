@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard Kebun</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <header>
+    <h1>Dashboard Pemantauan Kebun</h1>
+  </header>
+
+  <section id="summary-cards">
+    <div class="card" id="total-garden"></div>
+    <div class="card" id="total-volume"></div>
+  </section>
+
+  <section id="map"></section>
+
+  <section>
+    <canvas id="barChart" width="400" height="200"></canvas>
+  </section>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
